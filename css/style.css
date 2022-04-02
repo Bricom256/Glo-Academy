@@ -101,7 +101,9 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-page-wrapper {
-  max-width: 1500px;
+  /* 
+  
+  max-width: 1500px; */
   margin: 0 auto;
   background: #ffffff;
 }
@@ -160,15 +162,15 @@ a:hover, a:focus, a:active {
 }
 
 @media screen and (max-width: 768px) {
-  .probootstrap-header-top {
+  .probootstrap-header-top{
     display: none;
   }
-  .probootstrap-header-top.active {
+  .active {
     display: block;
   }
 }
 
-.probootstrap-header-top > .container {
+ .probootstrap-header-top> .container {
   border-bottom: 1px solid #f2f2f2;
 }
 

@@ -81,7 +81,7 @@ a {
 
 // page wrap
 .probootstrap-page-wrapper {
-	max-width: 1500px;
+	// max-width: 1500px;
 	margin: 0 auto;
 	background: $brand-white;
 	@media screen and (max-width: 1500px) {
@@ -123,7 +123,7 @@ a {
 // top
 .probootstrap-header-top {
 	margin-top: 0;
-	position: relative;
+	position: fixed;
 	transition: .3s all;
 	@media screen and (max-width: $screen-sm) {
 		// margin-top: -139px;
